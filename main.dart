@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
         children: [
           SizedBox(height: 20),
 
-          
+
           Center(
             child: Container(
               width: 120,
@@ -79,7 +79,7 @@ class HomePage extends StatelessWidget {
                       print("Tapped on ${item['label']}");
                     },
                     child: Card(
-                      color: Colors.blue[100],
+                      color: Colors.green[100],
                       elevation: 2,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(15),
